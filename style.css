@@ -207,7 +207,10 @@ footer{
 
 @media (max-width:420px) {
     body{
-        background: chartreuse;
+        /* background: chartreuse; */
+    }
+    li{
+        display: none;
     }
     .container{
         display: flex;
@@ -217,10 +220,21 @@ footer{
     .title-img{
         margin: 20% 20% 20% 0;
     }
+    .see-btn{
+        bottom: -9%;
+    }
     .all-colloction{
     display: grid;
     grid-row-gap: 1%;
     grid-template-columns: 1fr;
+    margin-bottom: 200%;
+    }
+    
+    .subsctiber{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 0%;
     }
 
 
