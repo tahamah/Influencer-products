@@ -205,6 +205,28 @@ footer{
 }
 
 
+@media (max-width:420px) {
+    body{
+        background: chartreuse;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .title-img{
+        margin: 20% 20% 20% 0;
+    }
+    .all-colloction{
+    display: grid;
+    grid-row-gap: 1%;
+    grid-template-columns: 1fr;
+    }
+
+
+
+
+
 /* PC Short Screen  */
 @media (max-width:1590px) {
     li{
@@ -214,7 +236,7 @@ footer{
         font-size: 180%;
     }
 }
-
+/* PC large Screen  */
 @media (min-width:1900px) {
     nav{
         width:1900px ;
