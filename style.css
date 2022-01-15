@@ -59,7 +59,7 @@ nav{
     color: whitesmoke;
     position: fixed; 
     top: 0; 
-    z-index: 1;
+    z-index: 3;
 }
 .nav-itams{
     height: 75px;
@@ -104,6 +104,13 @@ nav{
 }
 .title-img{
     margin-left:10%;
+    z-index: 2; 
+}
+.top-bg{
+    position: absolute;
+    top: 20%;
+    right: 13%;
+    z-index: 1;
 }
 /* ---------------------------------
      Main Titel or Web Header end
@@ -127,6 +134,7 @@ nav{
     grid-row-gap: 5%;
     grid-column-gap: 5%;
     margin-bottom: 10%;
+    position: relative;
 }
 .collection{
     box-shadow: 0 0 5px 0 lightslategray;
@@ -140,17 +148,19 @@ nav{
 .collection img{
     width: 100%;
 }
+section{
+    position: relative;
+}
 .see-btn{
-    background: #fff;
+    position: absolute;
+    bottom: -12%;
+    right: 15%;
+    margin-top: 4%;
+    font-weight: 900;
+}
+.see-btn a{
     color: #E02C6D;
     text-decoration: none;
-    padding: 0;
-    margin: 0;
-    position: absolute;
-    right: 15%;
-    text-align: right;
-    margin-top: 4%;
-    font-weight: 700;
 }
 /* --------------------------------
     All collection section end
@@ -192,4 +202,24 @@ footer{
 .icon{
     color: #E02C6D;
     padding: 0% 10px;
+}
+
+
+/* PC Short Screen  */
+@media (max-width:1590px) {
+    li{
+        font-size: 80%;
+    }
+    .logo>h1{
+        font-size: 180%;
+    }
+}
+
+@media (min-width:1900px) {
+    nav{
+        width:1900px ;
+    }
+    body{
+        width: 1900px; 
+    }
 }
