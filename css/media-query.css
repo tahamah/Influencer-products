@@ -5,10 +5,15 @@
 /* PC large Screen  */
 @media (min-width:1900px) {
     nav{
-        width:1900px ;
+        background: #343a40;   
     }
-    body{
-        width: 1900px; 
+    .nav-itams{
+        width:1900px;
+        margin: 0% auto;
+    }
+    main{
+        width: 1900px;
+        margin: 0% auto; 
     }
 }
 
@@ -112,6 +117,7 @@
         flex-direction: column;
         margin-top: 0%;
     }
+}
 /* -----------------------------
         media query end
 -------------------------------- */
